@@ -1,0 +1,10 @@
+# Nome do dataset
+train: "/home/dejair/Documents/Antonio/drowning-detaction-master/train/images"  # Caminho completo para as imagens de treino
+val: "/home/dejair/Documents/Antonio/drowning-detaction-master/valid/images"    # Caminho completo para as imagens de validação
+test: "/home/dejair/Documents/Antonio/drowning-detaction-master/test/images"   # Caminho completo para as imagens de teste
+
+# Número de classes
+nc: 3  # Quantidade de classes (drowning, surface-natation, underwater-natation)
+
+# Nomes das classes
+names: ["surface-natation", "drowning", "underwater-natation"]
